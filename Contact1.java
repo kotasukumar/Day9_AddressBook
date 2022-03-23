@@ -1,18 +1,12 @@
 package com.company;
 
-public class Add {
-    String firstName;
-    String lastName;
-    String address;
-    String city;
-    String state;
-    long pinCode;
-    long contactNumber;
-    String emailID;
+public class Contact1 extends AddressBook1 {
+    String firstName = "k";
+    String lastName = "sukumar";
 
     @Override
     public String toString() {
-        return "Add{" +
+        return "Contact1{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", address='" + address + '\'' +
